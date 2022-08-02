@@ -136,6 +136,7 @@ namespace SwordsOfExileGame
         public static void Initialise(Game g)
         {
             DeviceManager = new GraphicsDeviceManager(g);
+            DeviceManager.HardwareModeSwitch = false;
             Content = g.Content;
             Content.RootDirectory = "Content";
 
