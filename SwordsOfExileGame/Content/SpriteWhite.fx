@@ -19,6 +19,6 @@ technique Technique1
         // TODO: set renderstates here.
 
         //VertexShader = compile vs_2_0 VertexShaderFunction();
-        PixelShader = compile ps_2_0 ps_main();
+        PixelShader = compile ps_4_0_level_9_1 ps_main();
     }
 }
